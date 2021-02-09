@@ -4,6 +4,10 @@
     font-size: 12px;
 }
 
+.info {
+    @extend %font;
+}
+
 .success {
     color: #00FF00;
     @extend %font;
